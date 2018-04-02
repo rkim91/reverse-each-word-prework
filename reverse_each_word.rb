@@ -1,8 +1,8 @@
 def reverse_each_word(sentence)
-  reversed = ""
+  reversed
   newsentence = sentence.split
   newsentence.map do |x|
      x.reverse!
    end
-  return newsentence << reversed
+  return newsentence.join
 end
