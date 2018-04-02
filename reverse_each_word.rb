@@ -3,5 +3,5 @@ def reverse_each_word(sentence)
   newsentence.map do |x|
      x.reverse
    end
-  # return newsentence
+  return newsentence
 end
